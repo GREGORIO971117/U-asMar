@@ -11,6 +11,7 @@
 
 /* Estilos generales */
 body {
+
     font-family: "Roboto", sans-serif;
     font-weight: 1000;
     font-style: italic;
@@ -19,6 +20,13 @@ body {
     padding: 0;
 }
 
+.navbar {
+    background-color: transparent;
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Asegúrate de que esté por encima de otros elementos */
+     /* Fondo blanco para que sea visible */
+  }
 /* Titulares */
 h1 {
     margin: 100px 0 50px;
@@ -44,14 +52,17 @@ h2 {
     padding: 50px 0; /* Añadido para consistencia */
 }
 
+.portada h1, .portada p, .portada a {
+    color: #FCF0F0; /* Color claro para h1 */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Agrega sombra para mejor legibilidad */
+}
+
+
+
 /* Navbar */
 .navbar-brand {
     font-size: 40px;
     color: var(--color1); /* Mueve el color aquí para consistencia */
-}
-
-.navbar {
-    background: transparent; /* Asegura que no haya fondo sólido */
 }
 
 /* Botones generales */
