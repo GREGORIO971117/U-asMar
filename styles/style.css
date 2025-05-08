@@ -21,11 +21,12 @@ body {
 }
 
 .navbar {
-    background-color: transparent;
-    position: fixed;
-    top: 0;
-    z-index: 1000; 
+    background-color: transparent; 
   }
+
+.navbar-toggler-icon{
+    background-color: #AE9DEF;
+}
 /* Titulares */
 h1 {
     margin: 100px 0 50px;

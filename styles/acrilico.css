@@ -22,15 +22,15 @@ body {
 }
 
 .navbar {
-    background-color: transparent;
-    position: fixed;
-    top: 0;
-    z-index: 1000; 
+    background-color: var(--color5);
   }
+
+.navbar-toggler{
+    background-color: #AE9DEF;
+}
 /* Titulares */
 h1 {
     margin-top: 100px;
-    padding-left: 100px;
     font-size: 42px;
     font-weight: 900;
     color: var(--color5);
@@ -39,9 +39,9 @@ h1 {
 }
 
 h2 {
-    text-align: center;
-    font-size: 50px;
+    font-size: 30px;
     color: var(--color5);
+    font-weight: bold;
 }
 
 /* Navbar */
@@ -51,16 +51,20 @@ h2 {
 }
 
 /* Botones generales */
-.btn {
+.btn{
     font-size: 20px;
     border-width: 3px; /* Para asegurar consistencia */
+}
+
+.btn-acerca{
+    color:var(--color1)
 }
 
 /* Botones personalizados */
 .btn-outline-primary {
     --bs-btn-border-color:none;
-    --bs-btn-color: var(--color1);
-    background-color: var(--color5);
+    --bs-btn-color: var(--color5);
+    background-color: var(--color3);
     border-radius: 20px;
     width: 120px;
     height: 50px;
@@ -73,5 +77,32 @@ h2 {
     width: 120px;
     height: 60px;
     margin: 50px 0;
+}
+.card{
+    border: none; /* Elimina borde innecesario */
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+
+.card-img-top {
+    width: 500px; /* Ajusta el tamaño según sea necesario */
+    height: 500px;
+    object-fit: cover; /* Asegura que la imagen se ajuste al contenedor */
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+p{
+    margin-left: 20px;
+}
+
+.parrafo{
+    background-color: #D1C8F4;
+    border-radius: 10%;
+    padding: 50px;
 }
 
