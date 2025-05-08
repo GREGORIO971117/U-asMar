@@ -5,15 +5,15 @@ let btnRubigel=document.getElementById("rubigel");
 btnAcrilico.addEventListener('click', function(e) {
     // Puedes agregar condiciones o lógica aquí
     e.preventDefault();
-    window.location.href = '../acrilico.html';
+    window.location.href = './acrilico.html';
 });
 btnGelish.addEventListener('click', function(e) {
     // Puedes agregar condiciones o lógica aquí
     e.preventDefault();
-    window.location.href = '../gelish.html';
+    window.location.href = './gelish.html';
 });
 btnRubigel.addEventListener('click', function(e) {
     // Puedes agregar condiciones o lógica aquí
     e.preventDefault();
-    window.location.href = '../rubigel.html';
+    window.location.href = './rubigel.html';
 });
