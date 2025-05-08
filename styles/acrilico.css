@@ -11,7 +11,6 @@
 
 /* Estilos generales */
 body {
-
     font-family: "Roboto", sans-serif;
     font-weight: 1000;
     font-style: italic;
@@ -23,11 +22,12 @@ body {
 
 .navbar {
     background-color: var(--color5);
-  }
+}
 
-.navbar-toggler{
+.navbar-toggler {
     background-color: #AE9DEF;
 }
+
 /* Titulares */
 h1 {
     margin-top: 100px;
@@ -35,7 +35,6 @@ h1 {
     font-weight: 900;
     color: var(--color5);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Agrega sombra para mejor legibilidad */
-
 }
 
 h2 {
@@ -51,18 +50,18 @@ h2 {
 }
 
 /* Botones generales */
-.btn{
+.btn {
     font-size: 20px;
     border-width: 3px; /* Para asegurar consistencia */
 }
 
-.btn-acerca{
-    color:var(--color1)
+.btn-acerca {
+    color: var(--color1);
 }
 
 /* Botones personalizados */
 .btn-outline-primary {
-    --bs-btn-border-color:none;
+    --bs-btn-border-color: none;
     --bs-btn-color: var(--color5);
     background-color: var(--color3);
     border-radius: 20px;
@@ -78,7 +77,8 @@ h2 {
     height: 60px;
     margin: 50px 0;
 }
-.card{
+
+.card {
     border: none; /* Elimina borde innecesario */
     background-color: transparent;
     display: flex;
@@ -96,13 +96,59 @@ h2 {
     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 }
 
-p{
+p {
     margin-left: 20px;
 }
 
-.parrafo{
+.parrafo {
     background-color: #D1C8F4;
     border-radius: 10%;
     padding: 50px;
 }
 
+/* Media Queries para dispositivos móviles */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 32px; /* Reduce tamaño del título */
+        margin-top: 50px;
+    }
+
+    h2 {
+        font-size: 24px; /* Reduce tamaño del subtítulo */
+    }
+
+    .btn {
+        font-size: 16px; /* Ajusta tamaño de botones */
+        width: 100px;
+        height: 40px;
+    }
+
+    .card-img-top {
+        width: 300px; /* Reduce el tamaño en pantallas pequeñas */
+        height: 300px;
+    }
+
+    .parrafo {
+        padding: 30px; /* Reduce padding para pantallas pequeñas */
+        border-radius: 5%;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-brand {
+        font-size: 30px; /* Ajusta tamaño del logo en la navbar */
+    }
+
+    .card-img-top {
+        width: 250px; /* Ajusta aún más el tamaño de las imágenes */
+        height: 250px;
+    }
+
+    .parrafo {
+        padding: 20px; /* Ajusta el padding para pantallas extra pequeñas */
+    }
+
+    p {
+        margin-left: 10px; /* Reduce margen para texto */
+    }
+}
