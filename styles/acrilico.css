@@ -124,8 +124,8 @@ p {
     }
 
     .card-img-top {
-        width: 300px; /* Reduce el tamaño en pantallas pequeñas */
-        height: 300px;
+        width: 400px; /* Reduce el tamaño en pantallas pequeñas */
+        height: 400px;
     }
 
     .parrafo {
@@ -140,8 +140,8 @@ p {
     }
 
     .card-img-top {
-        width: 250px; /* Ajusta aún más el tamaño de las imágenes */
-        height: 250px;
+        width: 400px; /* Ajusta aún más el tamaño de las imágenes */
+        height: 400px;
     }
 
     .parrafo {
