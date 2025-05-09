@@ -1,6 +1,6 @@
 
 /* Variables de colores */
-:root {
+html {
     --color1: #FCF0F0;
     --color2: #D1C8F4;
     --color3: #AE9DEF;
@@ -40,7 +40,7 @@ h2 {
 /* Portada */
 .portada {
     width: 100%;
-    background-image: url('../assets/productos3.jpg');
+    background-image: url('../images/productos3.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
