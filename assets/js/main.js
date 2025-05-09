@@ -1,6 +1,8 @@
 let btnAcrilico=document.getElementById("acrilico");
 let btnGelish=document.getElementById("gelish");
 let btnRubigel=document.getElementById("rubigel");
+let btnInicio=document.getElementById("inicio");
+
 
 btnAcrilico.addEventListener('click', function(e) {
     // Puedes agregar condiciones o lógica aquí
@@ -16,4 +18,9 @@ btnRubigel.addEventListener('click', function(e) {
     // Puedes agregar condiciones o lógica aquí
     e.preventDefault();
     window.location.href = './rubigel.html';
+});
+btnInicio.addEventListener('click', function(e) {
+    // Puedes agregar condiciones o lógica aquí
+    e.preventDefault();
+    window.location.href = './index.html';
 });
