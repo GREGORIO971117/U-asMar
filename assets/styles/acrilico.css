@@ -18,12 +18,27 @@ body {
     background-color: var(--color3);
 }
 
-.navbar {
-    background-color: var(--color5);
+/* Portada */
+.portada {
+    width: 100%;
+    background-image: url('../images/productos3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: var(--color1);
+    text-align: center;
+    padding: 50px 0; /* Añadido para consistencia */
 }
 
-.navbar-toggler {
-    background-color: #AE9DEF;
+.portada h1, .portada p, .portada a {
+    color: #FCF0F0; /* Color claro para h1 */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Agrega sombra para mejor legibilidad */
+}
+
+/* Navbar */
+.navbar-brand {
+    font-size: 40px;
+    color: var(--color1); /* Mueve el color aquí para consistencia */
 }
 
 /* Titulares */
