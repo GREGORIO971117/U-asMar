@@ -1,5 +1,8 @@
-
-/* Variables de colores */
+/*
+ * --------------------------------------------------
+ * Variables de colores
+ * --------------------------------------------------
+ */
 html {
     --color1: #FCF0F0;
     --color2: #D1C8F4;
@@ -8,9 +11,12 @@ html {
     --color5: #531A4A;
 }
 
-/* Estilos generales */
+/*
+ * --------------------------------------------------
+ * Estilos generales del body
+ * --------------------------------------------------
+ */
 body {
-
     font-family: "Roboto", sans-serif;
     font-weight: 1000;
     font-style: italic;
@@ -19,12 +25,25 @@ body {
     padding: 0;
 }
 
+/*
+ * --------------------------------------------------
+ * Estilos del Navbar
+ * --------------------------------------------------
+ */
 .navbar {
-    background-color: transparent; 
-  }
+    background-color: transparent;
+}
 
+.navbar-brand {
+    font-size: 40px;
+    color: var(--color1);
+}
 
-/* Titulares */
+/*
+ * --------------------------------------------------
+ * Estilos de los Titulares
+ * --------------------------------------------------
+ */
 h1 {
     margin: 100px 0 50px;
     font-size: 42px;
@@ -37,7 +56,11 @@ h2 {
     color: var(--color5);
 }
 
-/* Portada */
+/*
+ * --------------------------------------------------
+ * Estilos de la Portada
+ * --------------------------------------------------
+ */
 .portada {
     width: 100%;
     background-image: url('../images/productos3.jpg');
@@ -46,31 +69,29 @@ h2 {
     background-repeat: no-repeat;
     color: var(--color1);
     text-align: center;
-    padding: 50px 0; /* Añadido para consistencia */
+    padding: 50px 0;
 }
 
-.portada h1, .portada p, .portada a {
-    color: #FCF0F0; /* Color claro para h1 */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Agrega sombra para mejor legibilidad */
+.portada h1,
+.portada p,
+.portada a {
+    color: #FCF0F0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
-
-
-/* Navbar */
-.navbar-brand {
-    font-size: 40px;
-    color: var(--color1); /* Mueve el color aquí para consistencia */
-}
-
-/* Botones generales */
+/*
+ * --------------------------------------------------
+ * Estilos de los Botones
+ * --------------------------------------------------
+ */
 .btn {
     font-size: 20px;
-    border-width: 3px; /* Para asegurar consistencia */
+    border-width: 3px;
 }
 
 /* Botones personalizados */
 .btn-outline-primary {
-    --bs-btn-border-color:none;
+    --bs-btn-border-color: none;
     --bs-btn-color: var(--color5);
     background-color: var(--color3);
     border-radius: 20px;
@@ -87,13 +108,21 @@ h2 {
     margin: 50px 0;
 }
 
-/* Parrafo */
+/*
+ * --------------------------------------------------
+ * Estilos del Párrafo general dentro de container-fluid
+ * --------------------------------------------------
+ */
 .container-fluid p {
     margin: 100px 0;
     font-size: 16px;
 }
 
-/* Servicios */
+/*
+ * --------------------------------------------------
+ * Estilos de la sección de Servicios
+ * --------------------------------------------------
+ */
 .servicios {
     font-weight: 900;
     background-color: var(--color3);
@@ -103,16 +132,20 @@ h2 {
     padding: 50px 0;
 }
 
-/* Tarjetas */
+/*
+ * --------------------------------------------------
+ * Estilos de las Tarjetas de Servicio
+ * --------------------------------------------------
+ */
 .card {
-    border: none; /* Elimina borde innecesario */
+    border: none;
     background-color: transparent;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 100%; /* Asegura consistencia */
+    height: 100%;
 }
 
 .card img {
@@ -124,14 +157,18 @@ h2 {
 }
 
 .card h2 {
-    margin: 20px 0 0; /* Añade margen para separación */
+    margin: 20px 0 0;
 }
 
-/* Footer */
+/*
+ * --------------------------------------------------
+ * Estilos del Footer
+ * --------------------------------------------------
+ */
 .footer {
     background-color: var(--color5);
     color: var(--color1);
     border-radius: 0;
-    text-align: center; /* Asegura centrado del texto */
-    padding: 20px 0; /* Mejora el espaciado */
+    text-align: center;
+    padding: 20px 0;
 }

@@ -24,39 +24,9 @@
       <div id="portada" class="portada"></div>
 </header>
 
-
-    <div class="container-fluid servicios">
-      <div class="row">
-        <h1 class="text-center mt-4 mb-4">ACRILICO</h1>
-        <p class="text-center">
-          Es una reacción química propia de un monómero más un polímero, sistema
-          rígido con una duración de 21 días.
-        </p>
-        <!-- Primera fila -->
-        <div class="col-sm-12 col-md-6 mb-4">
-          <div class="card">
-            <img
-              src="./assets/images/Acrilico.jpeg"
-              class="card-img-top rounded-circle mx-auto d-block"
-              alt="..."
-            />
-          </div>
-        </div>
-        <div
-          class="col-sm-12 col-md-6 mb-4 align-items-center justify-content parrafo"
-          style="
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            height: 100%;
-          "
-        >
-          <h2>Nude</h2>
-          <p>
-            Uñas tono nude acabado brilloso, relieve en forma de sol con efecto
-            espejo y cristales.
-          </p>
-        </div>
+<!--NavBar-->
+      <div id="navBar"></div>
+  
 
         <!-- Segunda fila -->
         <div class="col-sm-12 col-md-6 mb-4">
@@ -113,6 +83,7 @@
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
       crossorigin="anonymous"
+<<<<<<< HEAD
     ></script>
 
 
@@ -125,3 +96,19 @@
     </script>
   </body>
 </html>
+=======
+></script>
+
+<script> 
+  fetch('navBar.html') // Reemplaza con la URL de tu archivo HTML
+    .then(response => response.text())
+    .then(html => {
+      document.getElementById('navBar').innerHTML = html; // Asegúrate de que exista un elemento con el id 'contenedorNavbar'
+    })
+    .catch(error => {
+      console.error('Error al obtener el navbar:', error);
+    });
+</script>
+</body>
+</html>
+>>>>>>> gregorio
