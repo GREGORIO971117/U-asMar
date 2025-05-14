@@ -1,4 +1,8 @@
-/* Variables de colores */
+/*
+ * --------------------------------------------------
+ * Variables de colores
+ * --------------------------------------------------
+ */
 html {
     --color1: #FCF0F0;
     --color2: #D1C8F4;
@@ -7,7 +11,11 @@ html {
     --color5: #531A4A;
 }
 
-/* Estilos generales */
+/*
+ * --------------------------------------------------
+ * Estilos generales del body
+ * --------------------------------------------------
+ */
 body {
     font-family: "Roboto", sans-serif;
     font-weight: 1000;
@@ -18,21 +26,35 @@ body {
     background-color: var(--color3);
 }
 
+/*
+ * --------------------------------------------------
+ * Estilos de la Navbar
+ * --------------------------------------------------
+ */
 .navbar {
     background-color: var(--color5);
 }
 
-.navbar-toggler {
-    background-color: #AE9DEF;
+.navbar-brand {
+    font-size: 40px;
+    color: var(--color1);
 }
 
-/* Titulares */
+.navbar-toggler {
+    background-color: var(--color3);
+}
+
+/*
+ * --------------------------------------------------
+ * Estilos de los Titulares
+ * --------------------------------------------------
+ */
 h1 {
     margin-top: 100px;
     font-size: 42px;
     font-weight: 900;
     color: var(--color5);
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Agrega sombra para mejor legibilidad */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 h2 {
@@ -41,23 +63,20 @@ h2 {
     font-weight: bold;
 }
 
-/* Navbar */
-.navbar-brand {
-    font-size: 40px;
-    color: var(--color1); /* Mueve el color aquí para consistencia */
-}
-
-/* Botones generales */
+/*
+ * --------------------------------------------------
+ * Estilos de los Botones
+ * --------------------------------------------------
+ */
 .btn {
     font-size: 20px;
-    border-width: 3px; /* Para asegurar consistencia */
+    border-width: 3px;
 }
 
 .btn-acerca {
     color: var(--color1);
 }
 
-/* Botones personalizados */
 .btn-outline-primary {
     --bs-btn-border-color: none;
     --bs-btn-color: var(--color5);
@@ -76,8 +95,13 @@ h2 {
     margin: 50px 0;
 }
 
+/*
+ * --------------------------------------------------
+ * Estilos de las Tarjetas (Cards)
+ * --------------------------------------------------
+ */
 .card {
-    border: none; /* Elimina borde innecesario */
+    border: none;
     background-color: transparent;
     display: flex;
     flex-direction: column;
@@ -88,12 +112,17 @@ h2 {
 }
 
 .card-img-top {
-    width: 500px; /* Ajusta el tamaño según sea necesario */
+    width: 500px;
     height: 500px;
-    object-fit: cover; /* Asegura que la imagen se ajuste al contenedor */
+    object-fit: cover;
     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 }
 
+/*
+ * --------------------------------------------------
+ * Estilos del Párrafo
+ * --------------------------------------------------
+ */
 p {
     margin-left: 20px;
 }
@@ -104,49 +133,54 @@ p {
     padding: 50px;
 }
 
-/* Media Queries para dispositivos móviles */
+/*
+ * --------------------------------------------------
+ * Media Queries para dispositivos móviles
+ * --------------------------------------------------
+ */
 @media (max-width: 768px) {
     h1 {
-        font-size: 32px; /* Reduce tamaño del título */
+        font-size: 32px;
         margin-top: 50px;
     }
 
     h2 {
-        font-size: 24px; /* Reduce tamaño del subtítulo */
+        font-size: 24px;
     }
 
     .btn {
-        font-size: 16px; /* Ajusta tamaño de botones */
+        font-size: 16px;
         width: 100px;
         height: 40px;
     }
 
     .card-img-top {
-        width: 350px; /* Reduce el tamaño en pantallas pequeñas */
+        width: 350px;
         height: 350px;
     }
 
     .parrafo {
-        padding: 30px; /* Reduce padding para pantallas pequeñas */
+        padding: 30px;
         border-radius: 5%;
     }
 }
 
 @media (max-width: 576px) {
     .navbar-brand {
-        font-size: 30px; /* Ajusta tamaño del logo en la navbar */
+        font-size: 30px;
     }
 
     .card-img-top {
-        width: 350px; /* Ajusta aún más el tamaño de las imágenes */
+        width: 350px;
         height: 350px;
     }
 
     .parrafo {
-        padding: 20px; /* Ajusta el padding para pantallas extra pequeñas */
+        padding: 20px;
+        border-radius: 5%;
     }
 
     p {
-        margin-left: 10px; /* Reduce margen para texto */
+        margin-left: 10px;
     }
 }
