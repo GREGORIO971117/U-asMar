@@ -2,8 +2,8 @@
 const contenidoUñasData = [
   {
     imagenSrc: "./assets/images/ruberGel.jpeg",
-    nombre: "Uñas Elegantes",
-    descripcion: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores incidunt veritatis ullam explicabo placeat ab numquam...",
+    nombre:"Almendras",
+    descripcion: "Nivelación con ruber gel, forma almendra #2 tono nude, frances efecto espejo color oro.",
   },
   // Puedes agregar más objetos para más secciones
 ];

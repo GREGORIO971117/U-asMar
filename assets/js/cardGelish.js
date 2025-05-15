@@ -2,13 +2,8 @@
 const contenidoUñasData = [
   {
     imagenSrc: "./assets/images/gelSemipermanente.jpeg",
-    nombre: "Uñas Elegantes",
-    descripcion: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores incidunt veritatis ullam explicabo placeat ab numquam...",
-  },
-  {
-    imagenSrc: "./assets/images/gelSemipermanente.jpeg",
-    nombre: "Diseño Floral",
-    descripcion: "Descripción detallada de las uñas con diseño floral y sus características únicas...",
+    nombre:"Uñas elegantes",
+    descripcion: "Esmaltado perfecto de uña natural con gel semipermanente",
   },
   // Puedes agregar más objetos para más secciones
 ];

@@ -73,8 +73,7 @@ h2 {
 }
 
 .portada h1,
-.portada p,
-.portada a {
+.portada p{
     color: #FCF0F0;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }

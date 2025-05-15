@@ -18,14 +18,16 @@
     />
 
     <title>Mar</title>
+
   </head>
   <body>
+
     <div class="portada">
       <!-- Barra de navegación -->
        
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">MARCIANA</a>
+          <a class="navbar-brand">MARCIANA</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -40,7 +42,7 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item justify-content-right">
-                <button class="btn" type="submit">Acerca de mí</button>
+                <a class="navbar-brand" href="./acercaDeMi.html">Acerca de mi</a>
               </li>
               <li class="nav-item justify-content-right">
                 <button class="btn btn-outline-primary" type="submit">
@@ -63,9 +65,6 @@
               garantiza resultados excepcionales adaptados a tus necesidades
               individuales.
             </p>
-            <button class="btn btn-outline-primary leer-mas" type="submit">
-              Leer más
-            </button>
           </div>
         </div>
       </div>
@@ -84,11 +83,7 @@
             />
             <div class="card-body d-flex flex-column justify-content-center align-items-center">
               <h2>ACRILICO</h2>
-              <button
-                class="btn btn-outline-primary btn-servicios mt-3"
-                type="submit"
-                id="acrilico"
-              >
+              <button class="btn btn-outline-primary btn-servicios mt-3" type="submit" id="acrilico">
                 Ver más
               </button>
             </div>
@@ -158,14 +153,18 @@
       crossorigin="anonymous"
     ></script>
 
+    <script src="./assets/js/main.js"></script>
+
     <script>
           fetch("./navBar.html")
                       .then(response => response.text())
                       .then(data => {
                           document.getElementById("portada").innerHTML = data;
+                          
                       });
     </script>
 
-    <script src="./assets/js/main.js"></script>
+    
+
   </body>
 </html>

@@ -2,7 +2,7 @@ let btnAcrilico=document.getElementById("acrilico");
 let btnGelish=document.getElementById("gelish");
 let btnRubigel=document.getElementById("rubergel");
 let btnInicio=document.getElementById("inicio");
-
+let btnAcerca=document.getElementById("btnAcerca");
 
 btnAcrilico.addEventListener('click', function(e) {
     // Puedes agregar condiciones o lógica aquí
@@ -23,4 +23,9 @@ btnInicio.addEventListener('click', function(e) {
     // Puedes agregar condiciones o lógica aquí
     e.preventDefault();
     window.location.href = './index.html';
+});
+btnAcerca.addEventListener('click', function(e) {
+    // Puedes agregar condiciones o lógica aquí
+    e.preventDefault();
+    window.location.href = './acercaDeMi.html';
 });

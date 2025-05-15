@@ -1,7 +1,7 @@
 // Datos del contenido de las uñas
 const contenidoUñasData = [
   {
-    imagenSrc: "./assets/images/Acrilico_1.jpeg",
+    imagenSrc: "./assets/images/Acrilico.jpeg",
     nombre: "Francesitas",
     descripcion: "Uñas nude #5 francesitas color rojo, relieve con efecto espejo.",
   },
@@ -11,9 +11,9 @@ const contenidoUñasData = [
     descripcion: "Uñas baby color #15 french efecto azúcar, flores de acrílico 3D y joyería.",
   },
   {
-    imagenSrc: "./assets/images/Acrilico.jpeg",
-    nombre: "Baby color",
-    descripcion: "Uñas baby color #15 french efecto azúcar, flores de acrílico 3D y joyería.",
+    imagenSrc: "./assets/images/Acrilico_1.jpeg",
+    nombre: "Nude",
+    descripcion: "Uñas tono nude acabado brilloso, relieve en forma de sol con efecto espejo y cristales",
   },
   // Puedes agregar más objetos para más secciones
 ];
