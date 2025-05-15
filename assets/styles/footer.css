@@ -1,0 +1,37 @@
+/*
+ * --------------------------------------------------
+ * Variables de colores
+ * --------------------------------------------------
+ */
+html {
+    --color1: #FCF0F0;
+    --color2: #D1C8F4;
+    --color3: #AE9DEF;
+    --color4: #9B2929;
+    --color5: #531A4A;
+}
+
+/*
+ * --------------------------------------------------
+ * Estilos generales del body
+ * --------------------------------------------------
+ */
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 1000;
+    font-style: bold;
+    font-variation-settings: "wdth" 400;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: var(--color5);
+    color: var(--color1);
+    border-radius: 0;
+    padding: 20px 0;
+}
+
+img{
+    border-radius: 10%;
+}

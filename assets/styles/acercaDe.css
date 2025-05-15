@@ -1,0 +1,197 @@
+
+/*
+ * --------------------------------------------------
+ * Variables de colores
+ * --------------------------------------------------
+ */
+html {
+    --color1: #FCF0F0;
+    --color2: #D1C8F4;
+    --color3: #AE9DEF;
+    --color4: #9B2929;
+    --color5: #531A4A;
+}
+
+/*
+ * --------------------------------------------------
+ * Estilos generales del body
+ * --------------------------------------------------
+ */
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 1000;
+    font-style: italic;
+    font-variation-settings: "wdth" 400;
+    margin: 0;
+    padding: 0;
+    background-color: var(--color3);
+}
+
+/*
+ * --------------------------------------------------
+ * Estilos de la Navbar
+ * --------------------------------------------------
+ */
+.navbar {
+    background-color: var(--color5);
+}
+
+.navbar-brand {
+    font-size: 40px;
+    color: var(--color1);
+}
+
+.navbar-toggler {
+    background-color: var(--color3);
+}
+
+/*
+ * --------------------------------------------------
+ * Estilos de los Titulares
+ * --------------------------------------------------
+ */
+h1 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 42px;
+    font-weight: 900;
+    color: var(--color5);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+h2 {
+    font-size: 30px;
+    color: var(--color5);
+    font-weight: bold;
+}
+
+/*
+ * --------------------------------------------------
+ * Estilos de los Botones
+ * --------------------------------------------------
+ */
+.btn {
+    font-size: 20px;
+    border-width: 3px;
+}
+
+.btn-acerca {
+    color: var(--color1);
+}
+
+.btn-outline-primary {
+    --bs-btn-border-color: none;
+    --bs-btn-color: var(--color5);
+    background-color: var(--color3);
+    border-radius: 20px;
+    width: 120px;
+    height: 50px;
+}
+
+.btn-servicios {
+    background-color: var(--color5);
+    color: var(--color1);
+    border-radius: 20px;
+    width: 120px;
+    height: 60px;
+    margin: 50px 0;
+}
+
+/*
+ * --------------------------------------------------
+ * Estilos de las Tarjetas (Cards)
+ * --------------------------------------------------
+ */
+.card {
+    border: none;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+
+.card-img-top {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+/*
+ * --------------------------------------------------
+ * Estilos del Párrafo
+ * --------------------------------------------------
+ */
+p#descripcion {
+    margin: 20px;
+    background-color: #D1C8F4;
+    border-radius: 10%;
+    padding: 20px;
+}
+
+/*
+ * --------------------------------------------------
+ * Estilos del Footer
+ * --------------------------------------------------
+ */
+.footer {
+    background-color: var(--color5);
+    color: var(--color1);
+    border-radius: 0;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/*
+ * --------------------------------------------------
+ * Media Queries para dispositivos móviles
+ * --------------------------------------------------
+ */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 32px;
+        margin-top: 50px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .btn {
+        font-size: 16px;
+        width: 100px;
+        height: 40px;
+    }
+
+    .card-img-top {
+        width: 350px;
+        height: 350px;
+    }
+
+    .parrafo {
+        padding: 30px;
+        border-radius: 5%;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-brand {
+        font-size: 30px;
+    }
+
+    .card-img-top {
+        width: 350px;
+        height: 350px;
+    }
+
+    .parrafo {
+        padding: 20px;
+        border-radius: 5%;
+    }
+
+    p {
+        margin-left: 10px;
+    }
+}
