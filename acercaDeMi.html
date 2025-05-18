@@ -28,8 +28,8 @@
         <div class="col-12 col-md-4 mb-4">
           <div class="card text-center justify-content-center">
             <img
-              src="./assets/images/Acrilico.jpeg"
-              class="card-img-top rounded-circle mx-auto d-block"
+              src="./assets/images/presentacion.jpeg"
+              class="card-img-top rounded-circle mx-auto d-block border border-width border-black"
               alt="..."
             />
             <div
@@ -40,11 +40,63 @@
       </div>
     </div>
 
-    <p id="descripcion">
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, possimus
-      quis? Cum, ab. Error esse, ea itaque, dolorem neque maxime vitae veritatis
-      harum facere unde autem repudiandae ex provident libero!
-    </p>
+    <div
+      id="carouselExampleAutoplaying"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2> ¡Hola!  </h2>
+          <p id="descripcion">
+            Me llamo Mar soy una manicurista apasionada por el cuidado y
+            embellecimiento de las uñas. Me encanta ayudar a las personas a
+            sentirse seguras y hermosas con sus manos.
+          </p>
+        </div>
+        <div class="carousel-item">
+          
+          <h2>Mi Filosofía </h2>
+
+          <p id="descripcion">
+            Creo que cada persona es única y merece un trato
+            personalizado. Me esfuerzo por entender tus necesidades y
+            preferencias para brindarte un servicio que supere tus expectativas.
+          </p>
+        </div>
+        <div class="carousel-item">
+
+          <h2>Beneficios de Trabajar conmigo</h2>
+
+          <p id="descripcion">
+
+            - Atención personalizada y detallada <br>
+            - Uso de productos de alta calidad <br>
+            - Ambiente relajante <br>
+            - Resultados duraderos y satisfactorios
+
+          </p>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
 
     <div class="footer" id="footer"></div>
 
@@ -65,15 +117,14 @@
         });
     </script>
     <script>
-        fetch('footer.html') // Asegúrate de que la ruta sea correcta
-            .then(response => response.text())
-            .then(html => {
-                document.getElementById('footer').innerHTML = html; // Usamos el ID correcto 'navBar'
-            })
-            .catch(error => {
-                console.error('Error al obtener el footer:', error);
-            });
+      fetch("footer.html") // Asegúrate de que la ruta sea correcta
+        .then((response) => response.text())
+        .then((html) => {
+          document.getElementById("footer").innerHTML = html; // Usamos el ID correcto 'navBar'
+        })
+        .catch((error) => {
+          console.error("Error al obtener el footer:", error);
+        });
     </script>
-    
   </body>
 </html>
