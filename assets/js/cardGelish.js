@@ -5,6 +5,16 @@ const contenidoUñasData = [
     nombre:"Uñas elegantes",
     descripcion: "Esmaltado perfecto de uña natural con gel semipermanente",
   },
+  {
+    imagenSrc: "./assets/images/gelish_2.jpeg",
+    nombre:"Tonos rojos",
+    descripcion: "Esmaltado uña natural",
+  },
+  {
+    imagenSrc: "./assets/images/gelish_3.jpeg",
+    nombre:"Adornos",
+    descripcion: " Esmaltado en uña natural con efecto camaleón, y mariposa",
+  },
   // Puedes agregar más objetos para más secciones
 ];
 

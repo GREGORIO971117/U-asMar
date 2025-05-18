@@ -5,6 +5,16 @@ const contenidoUñasData = [
     nombre:"Almendras",
     descripcion: "Nivelación con ruber gel, forma almendra #2 tono nude, frances efecto espejo color oro.",
   },
+  {
+    imagenSrc: "./assets/images/ruber_2.jpeg",
+    nombre:"Colores rosas",
+    descripcion: "Tono nude french color rosa",
+  },
+  {
+    imagenSrc: "./assets/images/ruber_3.jpeg",
+    nombre:"Colores rosas",
+    descripcion: "Nivelación con ruber, esmaltado color nude.",
+  },
   // Puedes agregar más objetos para más secciones
 ];
 
