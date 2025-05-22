@@ -2,13 +2,13 @@
 const contenidoUñasData = [
   {
     imagenSrc: "./assets/images/Softgel.jpeg",
-    nombre:"Colores rosas",
-    descripcion: "Nivelación con ruber, esmaltado color nude.",
+    nombre:"",
+    descripcion: "",
   },
   {
     imagenSrc: "./assets/images/Softgel_1.jpeg",
-    nombre:"Colores rosas",
-    descripcion: "Nivelación con ruber, esmaltado color nude.",
+    nombre:"",
+    descripcion: "",
   },
   // Puedes agregar más objetos para más secciones
 ];
