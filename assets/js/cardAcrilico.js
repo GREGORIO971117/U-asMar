@@ -16,7 +16,7 @@ const contenidoUñasData = [
     descripcion: "Uñas tono nude acabado brilloso, relieve en forma de sol con efecto espejo y cristales",
   },
   {
-    imagenSrc: "./assets/images/Acrilico_4.jpeg",
+    imagenSrc: "./assets/images/acrilico_4.jpeg",
     nombre: "Estileto",
     descripcion: "Estileto #15 neón, encapsulado, french y cristales",
   },
